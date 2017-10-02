@@ -1,0 +1,5 @@
+mvn io.fabric8:vertx-maven-plugin:1.0.9:setup \
+ -DprojectGroupId=my.vertx.microservice \
+ -DprojectArtifactId=hello-microservice-http \
+ -Dverticle=my.vertx.http.HelloMicroservice \
+ -Ddependencies=web
